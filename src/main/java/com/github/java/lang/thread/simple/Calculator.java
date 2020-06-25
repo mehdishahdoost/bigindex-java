@@ -1,6 +1,6 @@
-package com.github.java.lang.thread;
+package com.github.java.lang.thread.simple;
 
-import com.github.java.util.PrimeUtil;
+import com.github.java.lang.thread.util.PrimeUtil;
 
 /**
  * Two ways for creating thread:

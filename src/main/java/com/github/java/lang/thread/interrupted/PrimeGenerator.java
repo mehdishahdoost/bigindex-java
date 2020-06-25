@@ -1,6 +1,6 @@
 package com.github.java.lang.thread.interrupted;
 
-import com.github.java.util.PrimeUtil;
+import com.github.java.lang.thread.util.PrimeUtil;
 
 /**
  *

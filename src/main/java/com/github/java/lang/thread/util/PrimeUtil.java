@@ -1,4 +1,4 @@
-package com.github.java.util;
+package com.github.java.lang.thread.util;
 
 /**
  * @author Mehdi Shahdoost

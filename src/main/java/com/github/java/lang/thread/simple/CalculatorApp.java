@@ -1,4 +1,4 @@
-package com.github.java.lang.thread;
+package com.github.java.lang.thread.simple;
 
 import java.io.FileWriter;
 import java.io.IOException;
