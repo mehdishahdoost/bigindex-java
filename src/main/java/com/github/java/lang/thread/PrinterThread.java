@@ -1,4 +1,4 @@
-package com.github.java.lang.runnable;
+package com.github.java.lang.thread;
 
 /**
  *

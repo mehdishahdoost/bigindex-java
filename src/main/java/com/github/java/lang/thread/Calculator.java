@@ -1,4 +1,6 @@
-package com.github.java.lang.runnable;
+package com.github.java.lang.thread;
+
+import com.github.java.util.PrimeUtil;
 
 /**
  * Two ways for creating thread:
@@ -21,7 +23,7 @@ public class Calculator implements Runnable {
         System.out.printf("Thread '%s': Start\n", Thread.currentThread().getName());
 
         while (current <= max) {
-            if (isPrime(current)) {
+            if (PrimeUtil.isPrime(current)) {
                 numPrimes++;
             }
             current++;
@@ -31,16 +33,5 @@ public class Calculator implements Runnable {
     }
 
 
-    private boolean isPrime(long number) {
-        if (number <= 2) {
-            return true;
-        }
 
-        for (long i = 2; i < number; i++) {
-            if (number % i == 0) {
-                return false;
-            }
-        }
-        return true;
-    }
 }
