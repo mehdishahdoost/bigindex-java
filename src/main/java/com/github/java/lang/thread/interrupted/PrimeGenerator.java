@@ -3,6 +3,9 @@ package com.github.java.lang.thread.interrupted;
 import com.github.java.util.PrimeUtil;
 
 /**
+ *
+ * It's easy way to interrupted  a thread with calling interrupt method
+ *
  * @author Mehdi Shahdoost
  */
 public class PrimeGenerator extends Thread {
