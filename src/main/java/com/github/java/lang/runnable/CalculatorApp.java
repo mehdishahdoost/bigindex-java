@@ -5,6 +5,13 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
+ * Two ways for creating thread:
+ *
+ * 1) class extends Thread class and override run() method. and call start() method of this class.
+ *
+ * 2) class implements Runnable interface and implements run() method and after that pass this class to constructor of
+ * Thread class and call start() method
+ *
  * @author Mehdi Shahdoost
  */
 public class CalculatorApp {
